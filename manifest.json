@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "rocker.js" ],
+      "matches": [ "<all_urls>" ],
+      "run_at": "document_start"
+   } ],
+  "description": "Adds Opera history gestures for navigating back and forward",
+   "icons": {
+      "128": "icon_128.png"
+   },
+
+  "manifest_version": 2,
+  "name": "Opera History Gestures",
+  "version": "1.0"
+}
